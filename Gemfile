@@ -34,7 +34,7 @@ group :test do
   gem 'factory_girl_rails'
   gem 'ffaker'
   gem 'simplecov', require: false
-  #gem 'poltergeist'
+  gem 'poltergeist'
 end
 
 group :staging, :production do
