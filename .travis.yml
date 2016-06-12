@@ -10,4 +10,6 @@ before_script:
   - bundle exec rake db:test:prepare
 script:
   - bundle exec rspec
+  - bundle exec bundle-audit update && bundle exec bundle-audit check
+  - bundle exec brakeman -z
   - npm run test
