@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - Rakefile
+    - db/*
+    - bin/*
+    - config/initializers/*
+StringLiterals:
+  Enabled: false
+Documentation:
+  Enabled: false
